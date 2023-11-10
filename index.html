@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 1</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="main">
+        <div onclick="toggleMenu()" class="toggle-sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="toggle-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>                   
+        </div>
+        <div class="sidebar">
+            
+            <ul class="sidebar-list">
+                <li class="sidebar-item">
+                    <a href="">Home</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="">Services</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="">News</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="">Blog</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-main">
+
+                <div class="content-logo">
+                    <img src="img/logoNCC 1.png" alt="">
+                </div>
+                <div class="content-intro">
+                    <h3>Lorem ipsum dolor sit asmet?</h3>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat. Vestibulum auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut mi. Morbi vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo eleifend convallis. Quisque suscipit maximus vestibulum. Phasellus congue mollis orci, sit amet luctus augue tristique eu. Donec vulputate odio neque, sed semper turpis pellentesque a.</span>
+                </div>
+                <div class="content-list">
+                    <div class="content-item">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <div class="content-detail">
+                            <div class="content-detail-img">
+                                <img src="img/css-icon 1.png" alt="">
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at </span>
+                        </div>
+                        <span>ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.</span>
+                </div>
+                <div class="content-item">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <div class="content-detail">
+                        <div class="content-detail-img">
+                            <img src="img/html-icon 2.png" alt="">
+                        </div>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at </span>
+                    </div>
+                    <span>ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.</span>
+                </div>
+                <div class="content-item">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <div class="content-detail">
+                        <div class="content-detail-img">
+                            <img src="img/url-icon 3.png" alt="">
+                        </div>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at </span>
+                    </div>
+                    <span>ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.</span>
+                </div>
+                </div>
+            </div>
+            <div class="content-footer">
+                Copyright © 2021
+            </div>
+        </div>
+
+    </div>
+    <script>
+
+function toggleMenu() {
+  var sidebar = document.querySelector('.sidebar');
+  if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+    sidebar.style.display = 'block';
+  } else {
+    sidebar.style.display = 'none';
+  }
+}
+
+</script>
+
+</body>
+</html>
